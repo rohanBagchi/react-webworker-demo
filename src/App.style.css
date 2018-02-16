@@ -1,0 +1,74 @@
+.card + .card {
+    margin-top: 10px;
+}
+
+.marginTop {
+    margin-top: 180px;
+}
+
+.sorting {
+    opacity: 0.4
+}
+
+.bouncy-ball {
+    background: red;
+    border-radius: 50%;
+    position: fixed;
+    top: 22%;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    -ms-animation: bounce 3s infinite;
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+@-ms-keyframes bounce {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 80px)
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 80px)
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 80px)
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 80px)
+    }
+    100% {
+        left: 0;
+    }
+}
